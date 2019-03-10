@@ -16,7 +16,7 @@ public class ProductService {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/feb2019","Rosh","1234");
+			con = DriverManager.getConnection("jdbc:mysql://3.17.167.182:3306/feb2019","Rosh","1234");
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
